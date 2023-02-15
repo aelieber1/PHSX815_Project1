@@ -234,7 +234,7 @@ if __name__ == "__main__":
     
     
     """Calculate Critical Test Statistic of H0"""
-    # Set significance level
+    # Set confidence level
     alpha = 0.98
     
     # Find which critical lambda value that corresponds to that significance level
