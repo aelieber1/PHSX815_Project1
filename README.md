@@ -31,7 +31,7 @@ packages are required:
 
 ### Usage
 
-The python file `GoalData.py` can be run from the command
+- The python file `GoalData.py` can be run from the command
 line by typing:
 
 	<> python3 GoalData.py -rate [rate] -seed [seed] -Nmeas [number of games observed] -Nexp [number of sets of measurments or seasons observed] -output ["filename"]
@@ -39,15 +39,20 @@ line by typing:
 This script will either print the result to the command line or save to a file 
 if given a filename from the command line.
 
-The python file `GoalDataAnalysis.py` can be run from the command
+- The python file `GoalDataAnalysis.py` can be run from the command
 line by typing:
 
 	<> python3 GoalData.py -inputH0 ["filename"] -inputH1 ["filename"]
     
 This script will output two plots, (1) a histogram of the data, (2) loglikelihood
 
-All of the Python programs can be called from the command line with the `-h` 
+- All of the Python programs can be called from the command line with the `-h` 
 or `--help` flag, which will print the options
+
+- The files `MySort.py` and `Random.py` are called within the scripts adn should be 
+downloaded or cloned to run properly
+
+- The other files in the repository `H0_data_lam_3_10000.txt`, `H1_data_lam_5_10000.txt`, `H1_data_lam_9_10000.txt` are data textfiles that were the output of running `GoalData.py` under different rate parameters for 20 measurements per 10000 experiments.
 
     
     
