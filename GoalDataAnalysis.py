@@ -92,7 +92,7 @@ if __name__ == "__main__":
             t_avg /= Nmeas
             goals_avg.append(t_avg)\
     
-    print("goals 1: ", goals)
+    #print("goals 1: ", goals)
     
     # Reading in Data from Hypothesis 1
     Nmeas2 = 1 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
             t_avg2 /= Nmeas2
             goals2_avg.append(t_avg)\
             
-    print("goals 2: ", goals2)
+    #print("goals 2: ", goals2)
     
     """ Analysis of Data """
     
