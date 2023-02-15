@@ -31,7 +31,7 @@ packages are required:
 
 ### Usage
 
-The python file `GoalData.py` can be run from the command
+The python file `GoalData.py` which simulates the experiment can be run from the command
 line by typing:
 
 	<> python3 GoalData.py -rate [rate] -seed [seed] -Nmeas [number of games observed] -Nexp [number of sets of measurments or seasons observed] -output ["filename"]
