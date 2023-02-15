@@ -45,7 +45,9 @@ The python file `GoalDataAnalysis.py` can be run from the command
 line by typing:
 
 	<> python3 GoalData.py -inputH0 ["filename"] -inputH1 ["filename"]
-    
+
+### Other Notes
+
 - This script will output two plots, (1) a histogram of the data, (2) loglikelihood
 
 - All of the Python programs can be called from the command line with the `-h` 
